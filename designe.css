@@ -82,7 +82,7 @@ body {
 .qr {
     width: 400px;
     height: auto;
-    margin-left: 300px; /* Margen derecho para separar las imágenes (ajustable según tus necesidades) */
+    margin-left: 300px;
 }
 
 .velas{
@@ -91,4 +91,93 @@ body {
 
 .espacio{
     margin-top: 50px;
+}
+
+/*Responsivo*/
+body {
+    font-family: "Arial Narrow", sans-serif;
+    color: white;    
+    background-color: #1b1b1b;
+    margin: 0;
+}
+
+/* Estilos para pantallas más grandes (escritorio) */
+@media screen and (min-width: 768px) {
+    .animacion img {
+        width: 70%;
+        max-width: 500px;
+        height: auto;
+        float: right;
+    }
+
+    .presentacion .titulo {
+        font-size: 150px;
+    }
+
+    .presentacion .detalle button {
+        width: 200px;
+        font-size: large;
+        margin-right: 50px;
+    }
+
+    .presentacion .detalle img {
+        width: 40px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .parte1, .parte2 {
+        padding: 20px;
+        margin: 10px;
+        font-size: large;
+    }
+
+    .qr {
+        width: 300px;
+        height: auto;
+        margin-left: 150px;
+    }
+
+    .velas {
+        margin-left: 200px;
+    }
+}
+
+/* Estilos para pantallas más pequeñas (móviles) */
+@media screen and (max-width: 767px) {
+    .animacion img {
+        width: 100%;
+        float: none;
+    }
+
+    .presentacion .titulo {
+        font-size: 100px;
+    }
+
+    .presentacion .detalle button {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .presentacion .detalle img {
+        width: 30px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .parte1, .parte2 {
+        padding: 10px;
+        margin: 10px;
+        font-size: medium;
+    }
+
+    .qr {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .velas {
+        margin-left: 0;
+    }
 }
