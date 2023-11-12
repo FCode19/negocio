@@ -1,13 +1,14 @@
-body {
+.bg {
     font-family: "Arial Narrow", sans-serif;
     color: white;    
-    background-color: #1b1b1b;
+    background-color: #154271;
 }
 
 .bar {
     display: flex;
     align-items: center;
     padding: 20px;
+    margin-left: 30px;
 }
 
 .bar .logo {
@@ -24,19 +25,18 @@ body {
 
 .presentacion .titulo{
     font-size: 200px;
+    margin-left: 30px;
 }
 
 .presentacion .detalle{
     font-family: 'Verdana', sans-serif;
     font-size: xx-large;
+    margin-left: 30px;
 }
 .presentacion .detalle button{
     width: 210px;
     height: 55px;
-    font-size: xx-large;
-    font-family: "Arial", sans-serif;
     border-radius: 15px;
-    margin-right: 5cm;
     background-color: #3BEB08;
     color: white;
 }
@@ -45,6 +45,7 @@ body {
     width: 50px;
     height: 50px;
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 /*hr*/
 .container1{
@@ -56,6 +57,10 @@ body {
     padding: 20px;
     font-family: "Arial", sans-serif;
     font-size: x-large;
+}
+.parte1 img{
+    margin-bottom: 10px;
+    margin-right: 5px;
 }
 
 .target {
@@ -79,14 +84,13 @@ body {
     height: auto;
 }
 
+.pie{
+    text-align: center;
+}
+
 .qr {
     width: 400px;
     height: auto;
-    margin-left: 300px;
-}
-
-.velas{
-    margin-left: 600px;
 }
 
 .espacio{
@@ -94,10 +98,10 @@ body {
 }
 
 /*Responsivo*/
-body {
+.bg {
     font-family: "Arial Narrow", sans-serif;
     color: white;    
-    background-color: #1b1b1b;
+    background-color: #154271;
     margin: 0;
 }
 
